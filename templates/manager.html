@@ -1,13 +1,13 @@
 <div class="card employee-card bg-danger">
-    <div class="card-header">
-        <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>{{ role }}</h3>
+    <div class="card-header bg-danger text-center">
+        <h2 class="card-title text-white">{{ name }}</h2>
+        <h3 class="card-title text-white"><i class="fas fa-mug-hot mr-2"></i>{{ role }}</h3>
     </div>
-    <div class="card-body">
+    <div class="card-body bg-dark">
         <ul class="list-group">
-            <li class="list-group-item">ID: {{ id }}</li>
-            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-            <li class="list-group-item">Office number: {{ officeNumber }}</li>
+            <li class="list-group-item bg-secondary text-white">ID: {{ id }}</li>
+            <li class="list-group-item bg-secondary text-white">Email: <a href="mailto:{{ email }}" style="color:black">{{ email }}</a></li>
+            <li class="list-group-item bg-secondary text-white">Office number: {{ officeNumber }}</li>
         </ul>
     </div>
 </div>
