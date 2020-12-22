@@ -3,7 +3,7 @@
   ## Description 
   A simple Team generator that utilizes command line to get user's input. Once the data has been entered the application will then create a html file that'll display all the data nicely with in cards on the html page.
   Here's an screenshot:
-  ![ScreenShot](.\team.PNG)
+  ![ScreenShot](team.PNG)
 
 
   Contact me:
