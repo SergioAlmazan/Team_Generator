@@ -79,7 +79,7 @@ function teamMember() {
                         choices: ['Engineer', 'Intern', 'Generate Team']
                     }
                 ]);
-
+        // Function will ask questions if previous question matches the role.
                 if (teamChoice.team === 'Engineer') {
 
                     inquirer.prompt([
