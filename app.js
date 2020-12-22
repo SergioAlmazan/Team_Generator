@@ -20,7 +20,7 @@ const ValInput = async (name) => {
     return true;
  };
  //validates the input to be a valid email address
- function validateEmail(name) 
+ function ValEmail(name) 
 {if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(name))
   {
     return (true)
@@ -47,7 +47,7 @@ function teamMember() {
                 type: "input",
                 message: "Your manager's email?",
                 name: "email",
-                validate: validateEmail
+                validate: ValEmail
             },
             {
                 type: "input",
@@ -99,7 +99,7 @@ function teamMember() {
                             type: "input",
                             message: "Your engineer's email?",
                             name: "email",
-                            validate: validateEmail
+                            validate: ValEmail
                         },
                         {
                             type: "input",
@@ -136,7 +136,7 @@ function teamMember() {
                             type: "input",
                             message: "Your intern's email?",
                             name: "email",
-                            validate: validateEmail 
+                            validate: ValEmail 
                         },
                         {
                             type: "input",
